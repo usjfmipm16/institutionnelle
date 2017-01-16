@@ -1,0 +1,65 @@
+.container{
+  background-color: $background-grey;
+}
+
+.container-fluid{
+  background-color: $background-grey;
+}
+
+.jumbotron{
+  background-color: $background-grey;
+  margin-top: 50px;
+}
+
+#cit{
+  margin-left: 45%;
+  font-size: 36px;
+  color: $red;
+  font-weight: 900;
+}
+
+.parenthese{
+  color: $small;
+}
+
+.quest{
+  font-weight: 800;
+  text-decoration: underline;
+  margin-left: 100px;
+  font-size: 20px;
+  margin-bottom: 10px
+}
+
+.reponse{
+  font-size: 18px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.type{
+  display: block;
+  list-style-type: none;
+  position: relative;
+  margin: 30px 0 40px 5%;
+  max-width: 80%;
+  &:first-child{
+    margin-top: 70px;
+  }
+  .title{
+    padding: 7px;
+    color: $red;
+    border-radius: 4px;
+    border: 2px solid $red;
+    font-size: 22px;
+    font-weight: 500;
+    &:hover{
+      color: $background-grey;
+      transition: 150ms;
+      background-color: $red;
+    }
+  }
+  .detaille {
+    font-size: 18px;
+    text-align: center;
+  }
+}
