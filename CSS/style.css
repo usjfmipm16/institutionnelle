@@ -70,12 +70,12 @@ a {
   background-color: #e6e6e6;
   color: #c80000;
   border-bottom: 5px solid #c80000;
-  font-size: 18px; }
+  font-size: 16px; }
   .navbar .navbar-brand {
-    font-size: 20px;
+    font-size: 18px;
     color: #c80000;
     font-weight: bolder;
-    margin-right: 50px; }
+    margin-right: 30px; }
   .navbar .navbar-toggle {
     background-color: none;
     border: none; }
