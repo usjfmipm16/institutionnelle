@@ -1,4 +1,16 @@
-@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,500");
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500);
+body {
+  background-color: #e6e6e6;
+  margin: 0px;
+  font-family: 'Ubuntu', sans-serif; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+  
+.sondage a:hover{
+	color: #777 !important; }
+
 .container {
   background-color: #e6e6e6; }
 
@@ -50,17 +62,9 @@
       transition: 150ms;
       background-color: #c80000; }
   .type .detaille {
+    margin-top: 15px;
     font-size: 18px;
     text-align: center; }
-
-body {
-  background-color: #e6e6e6;
-  margin: 0px;
-  font-family: 'Ubuntu', sans-serif; }
-
-a {
-  text-decoration: none;
-  color: inherit; }
 
 .navbar {
   background-color: #e6e6e6;
@@ -90,16 +94,51 @@ a {
   .navbar .dropdown-menu {
     font-size: 16px; }
 
+.container {
+  position: relative;
+  margin-top: 30px;
+  width: 65%; }
+  .container .img-rounded {
+    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.6), 0 1px 8px 1px rgba(0, 0, 0, 0.5);
+	width: 100%;
+	max-width: 300%;	}
+  .container .col-sm-3 {
+    margin-top: 20px;
+    font-size: 20px; }
+
+.intro {
+  position: relative;
+  margin-left: 30px;
+  font-size: 20px;
+  display: block; }
+
+.sondage {
+  position: relative;
+  margin-left: 30px;
+  font-size: 20px;
+  margin-top: 70px;
+  margin-bottom: 30px; }
+  .sondage img {
+    width: 40%;
+    margin-left: 30%; }
+
+.douleurmesure img {
+  position: relative;
+  width: 50%;
+  margin: 30px 0 30px 25%;
+  border: 0.5px solid rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.6), 0 1px 8px 1px rgba(0, 0, 0, 0.5); }
+
 .amourintro {
   position: relative;
   margin-bottom: 50px; }
+  .amourintro p {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px; }
 
-.amourintro p {
-  font-size: 20px;
-  margin-left: 20px;
-  margin-bottom: 50px; }
-
-div .detaille img {
+.detaille img {
   width: 30%;
   position: relative;
   margin-top: 40px;
@@ -111,50 +150,12 @@ div .detaille img {
   margin-left: 20px;
   margin-bottom: 50px; }
 
-.douleurmesure img {
+#adr img {
+  width: 50%;
   position: relative;
-  width: 80%;
-  margin: 30px 0 30px 10%;
-  border: 0.5px solid rgba(0, 0, 0, 0.8);
-  border-radius: 10px;
-  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.6), 0 1px 8px 1px rgba(0, 0, 0, 0.5); }
-
-.allimages img {
-  width: 90%;
-  border-radius: 10px;
-  align-self: center;
-  margin-top: 40px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 10px; }
-
-.container {
-  position: relative;
-  margin-top: 50px;
-  width: 81%; }
-  .container .img-rounded {
-    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.6), 0 1px 8px 1px rgba(0, 0, 0, 0.5); }
-  .container .col-sm-3 {
-    margin-top: 20px;
-    font-size: 18px; }
-
-.intro {
-  position: relative;
-  margin-left: 80px;
-  font-size: 20px;
+  margin-top: 30px;
   display: block;
-  margin-right: 60px; }
-
-.sondage {
-  position: relative;
-  font-size: 20px;
-  margin-top: 70px;
-  margin-bottom: 40px;
-  margin-left: 80px;
-  margin-right: 60px; }
-  .sondage img {
-    width: 60%;
-    margin-left: 20%; }
+  margin-left: 25%; }
 
 .intelligence img {
   width: 40%;
@@ -165,7 +166,7 @@ div .detaille img {
 
 .qi {
   margin-top: 100px; }
-  .qi img {
+  .qi .img {
     margin-left: 20%;
     width: 60%;
     margin-bottom: 40px; }
@@ -182,11 +183,13 @@ div .detaille img {
     color: #c80000;
     transition: 150ms; }
 
-#adr img {
-  width: 50%;
-  position: relative;
-  margin-top: 30px;
-  display: block;
-  margin-left: 25%; }
+.allimages img {
+  width: 90%;
+  border-radius: 10px;
+  align-self: center;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px; }
 
 /*# sourceMappingURL=style.css.map */

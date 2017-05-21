@@ -1,13 +1,11 @@
+@import 'helpers/variables';
 
+@import 'layout/common';
+@import 'layout/header';
 
-@import "helpers/variables";
-
-@import "layout/common";
-@import "layout/header";
-
-@import "pages/amour";
-@import "pages/douleur";
-@import "pages/img";
-@import "pages/index";
-@import "pages/intelligence";
-@import "pages/peur";
+@import 'pages/index';
+@import 'pages/douleur';
+@import 'pages/amour';
+@import 'pages/peur';
+@import 'pages/intelligence';
+@import 'pages/img';

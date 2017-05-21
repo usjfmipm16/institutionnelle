@@ -1,35 +1,31 @@
-.container{
+.container {
   position: relative;
-  margin-top: 50px;
+  margin-top: 30px;
   width: 81%;
-  .img-rounded{
+  .img-rounded {
     box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.6), 0 1px 8px 1px rgba(0, 0, 0, 0.5);
   }
-  .col-sm-3{
+  .col-sm-3 {
     margin-top: 20px;
-    font-size: 18px;
-    }
+    font-size: 20px;
+  }
 }
 
-.intro{
+.intro {
   position: relative;
-  margin-left: 80px;
+  margin-left: 30px;
   font-size: 20px;
   display: block;
-  margin-right: 60px;
 }
 
-.sondage{
+.sondage {
   position: relative;
+  margin-left: 30px;
   font-size: 20px;
-  margin:{
-    top: 70px;
-    bottom: 40px;
-    left: 80px;
-    right: 60px;
-  }
-  img{
-  width: 60%;
-  margin-left: 20%;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  img {
+    width: 40%;
+    margin-left: 30%;
   }
 }

@@ -1,48 +1,35 @@
-body {
-  background-color: $background-grey;;
-  margin: 0px;
-  font-family: 'Ubuntu', sans-serif; }
-
-a {
-  text-decoration: none;
-  color: inherit; }
-
-@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500');
-
-.navbar{
-  background-color: $background-grey;
-  color: $red;
-  border-bottom: 5px solid $red;
+.navbar {
+  background-color: #e6e6e6;
+  color: #c80000;
+  border-bottom: 5px solid #c80000;
   font-size: 18px;
-  .navbar-brand{
+  .navbar-brand {
     font-size: 24px;
-    color: $red;
+    color: #c80000;
     font-weight: bolder;
     margin-right: 50px;
   }
-  .navbar-toggle{
+  .navbar-toggle {
     background-color: none;
     border: none;
   }
-  .icon-bar{
-    background-color: $red !important;
+  .icon-bar {
+    background-color: #c80000 !important;
     height: 3px;
   }
-  .active>a{
-    color: $red !important;
+  .active > a {
+    color: #c80000 !important;
     font-weight: bold;
   }
-  li{
-    &:hover{
-      background-color: rgb(180, 180, 180);
-      padding-bottom: 1px;
-      transition: 300ms;
-      a{
-        color: $red !important;
-      }
+  li:hover {
+    background-color: #b4b4b4;
+    padding-bottom: 1px;
+    transition: 300ms;
+    a {
+      color: #c80000 !important;
     }
-  }
-  .dropdown-menu{
+  }  
+  .dropdown-menu {
     font-size: 16px;
   }
 }
